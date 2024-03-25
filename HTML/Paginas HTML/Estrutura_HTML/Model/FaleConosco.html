@@ -21,19 +21,45 @@
         <section> 
             <form action="index.html"> <!--Marcação de formulario, action para onde vai o formulario-->
                  <p>
-                    <label> Nome </label> <input type="text" name="Nome" required>
+                    <label> Nome: </label> <input type="text" name="Nome" required>
                  </p>
                  <p>
-                    <label> E-mail </label> <input type="email" name="Email" required>
+                    <label> E-mail: </label> <input type="email" name="Email" required>
                  </p>
                  <p>
-                    <label> Comentario </label> <textarea name="Comentario" rows="4" cols="50" maxlength="55"> </textarea>
+                    <label> Comentário: </label> <textarea name="Comentario" rows="4" cols="50" maxlength="55"> </textarea>
                      <!--Text area é para grandes textos, como comentario
                     rows = No maximo em até 4 linhas
                     cols = largura do comentario
                     maxlength = quantidade maxima de caracteres
                     -->
                  </p>
+                 <p>
+                    <label> Sexo: </label> <input type="radio" name="sexo"/> <label>Feminino</label>
+                      <input type="radio" name="sexo"/> <label>Masculino</label>
+                    <!--O nome dos radio buttons tem que ser igual para que o tipo funcione,
+                    Ele marca 1 e desmarca todos
+                    -->
+                </p>
+                <p>
+                    <label>Onde nos conheceu?</label>
+                    <select name="Conheceu">
+                        <option selected> Youtube </option> <!--O selected é a opção que ja vem marcada-->
+                        <option> google </option>
+                        <option> Amigos </option>
+                        <option> Outros</option>
+                    </select>
+                </p>
+                <p>
+                    <input type="checkbox" name="novidades" value="aceite"> 
+                    <label> Aceito receber e-mails de novidade </label>
+                    <!--Diferente do tipe radio o checkbox aceita varias marcações-->
+                </p>
+                <p>
+                    <input type="submit" name="enviar" value="enviar"> 
+                    <input type="reset" name="limpar" value="limpar">
+                    <!--O campo value é o nome que vai ser exibido no botão-->
+                </p>
             </form>
         </section>  
     </main>

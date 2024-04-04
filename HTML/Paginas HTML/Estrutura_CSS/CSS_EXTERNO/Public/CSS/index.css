@@ -1,10 +1,10 @@
-.color-red{
+.color-red  {
     color:red;
 }
 #home{
     color: green;
 }
- /*Hierarquia, dentro da classe color-red, tag ul/li/a ele aplica esse estilo em cascata*/
+ /*Hierarquiaas, dentro da classe color-red, tag ul/li/a ele aplica esse estilo em cascata*/
 .color-red ul li a {
     color: purple;
 }

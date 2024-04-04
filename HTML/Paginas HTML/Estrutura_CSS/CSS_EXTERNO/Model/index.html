@@ -6,8 +6,10 @@
         <meta name="keywords" content="devaria, programação ao vivo de graça"> <!--palavra chave para mecanismo de busca-->
         <meta name="author" content="Victor Silva"> <!--Autor da Pagina-->
         <meta http-equiv="refresh" content="50">  <!--Informa o tempo de refresh da pagina em segundos-->
+        <link rel="stylesheet" href="../Public/CSS/header.css">
         <link rel="stylesheet" href="../Public/CSS/index.css">
-        <!--Adapta o elemento de acordo com o tamanho do dispositivo-->
+        <link rel="stylesheet" href="../Public/CSS/footer.css">
+        <link rel="stylesheet" href="../Public/CSS/devaria.css">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         
         <title> Hello World </title> <!-- titulo da pagina-->
@@ -15,10 +17,16 @@
 
     <body>
         <header>
-            <h1 class="color-red"> Minha Pagina web</h1> <!-- titulo no corpo da pagina-->
+            <a href="../Model/index.html" class="link-logo">
+                <figure>
+                    <img src="../Public/Img/devaria.svg" alt="logo_devaria">
+                </figure>
+            </a>
+
+
             <nav class="color-red"> <!--conteudo de navegação-->
                 <ul>
-                    <li> <a href="index.html" id="home">home </a></li> <!-- <a> tag de link-->
+                    
                     <li> <a href="professores.html">Professores  </a></li>
                     <li> <a href="FaleConosco.html"> Fale Conosco </a> </li>       
                     <li>   <a href="../Model/devstar.html"> Dev Star </a></li>
@@ -26,10 +34,11 @@
             </nav>
         </header>
         <main> <!--Conteudo principal-->
+            <h1 class="title"> Minha Pagina web</h1> <!-- titulo no corpo da pagina-->
             <section> <!-- marcação de seção-->
                 <figure> <!--Identifica no html que o trecho é uma imagem-->
               
-                    <img src="../Public/Img/devaria_home.png" width="500"   alt="Imagem Devaria"/> <!--Marcação de texto alternativo da img-->
+                    <img src="../Public/Img/devaria_home.png"    alt="Imagem Devaria"/> <!--Marcação de texto alternativo da img-->
                 <figcaption> Foto de capa devaria </figcaption> <!--Legenda da imagem-->    
                 </figure>
             </section>

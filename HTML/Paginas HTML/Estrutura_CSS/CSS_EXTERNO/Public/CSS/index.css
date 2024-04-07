@@ -1,10 +1,9 @@
-.color-red  {
-    color:red;
-}
+ 
 #home{
     color: green;
 }
- /*Hierarquiaas, dentro da classe color-red, tag ul/li/a ele aplica esse estilo em cascata*/
-.color-red ul li a {
-    color: purple;
+ 
+ 
+.cover-container figure img{
+    width: 100%;
 }

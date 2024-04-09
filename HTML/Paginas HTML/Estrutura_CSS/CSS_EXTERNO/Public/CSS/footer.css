@@ -1,1 +1,19 @@
 /*Estilos relacionados ao rodapé*/
+footer{
+    
+    text-align: center;
+    border-top: 1px solid #f0f5ff;
+    padding: 20px;
+    width: 75%;
+    margin:auto;
+    text-transform: lowercase;
+}
+/*Tenho dois spans, o primeiro elemento vai aplicar um css*/
+footer section span:first-child
+{   
+    color: #5e49ff;
+}
+footer section span:last-child
+{
+    color: #3bd42d;
+}

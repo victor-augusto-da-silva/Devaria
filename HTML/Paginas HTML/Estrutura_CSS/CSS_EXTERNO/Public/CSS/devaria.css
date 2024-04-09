@@ -1,7 +1,7 @@
 /*Estilos Globais*/
 
 html{
-    height: 100px;
+    height: 100%;
 }
 
 body{
@@ -10,4 +10,23 @@ body{
     font-family: sans-serif;
     color: #fff;
     margin: 0;
+}
+
+.title {
+    /*Por padrão o EM tem algumas configurações de tamanho de acordo com a tag utilizada
+    Para o H1 por exemplo 1 em é = a 16px, no caso vou aplicar 1.75% disso
+    */
+    font-size: 1.75em;
+    padding: 0 20px;
+    text-transform: uppercase;
+}
+
+/*Todo h1 que contenha a classe title*/
+h1.title{
+    /*40 pixels superior, auto direita/esq 20 inferior*/
+    margin: 40px auto 20px;
+}
+
+.text-justify{
+    text-align: justify;
 }

@@ -1,27 +1,4 @@
-/*Estilos relacionados ao cabeçalho*/
 
-/*Por padrão:
-Media query serve para aplicar tipos definidos apenas para midias determinadas (podem ter telas ou outro atributos)
-
-As propriedades são: not|only (se vai aplciar ou não) mediatype (tipo de midia) and (mediafeature)
-*/
-
-
-/*992 px é o limite de um tablet*/
-@media  screen and (min-width:992px) 
-{
-
-    header  {
-        position: relative;
-
-    }
-    .menu{
-        /*O menu vai para a parte superior a direita, 2% é os 2% do limite da margem*/
-        position: absolute;
-        right: 2%;
-        top: 18%;
-    }
-}
 
 
 header .link-logo{
@@ -58,4 +35,34 @@ header nav ul li:not(:last-child)
 .menu li a:hover{
     color: #25cbd3;
     text-decoration: underline;
+}
+
+
+
+
+/*Estilos relacionados ao cabeçalho*/
+
+/*Por padrão:
+Media query serve para aplicar tipos definidos apenas para midias determinadas (podem ter telas ou outro atributos)
+
+As propriedades são: not|only (se vai aplciar ou não) mediatype (tipo de midia) and (mediafeature)
+*/
+
+
+
+
+/*992 px é o limite de um tablet*/
+@media  screen and (min-width:992px) 
+{
+
+    header  {
+        position: relative;
+
+    }
+    .menu{
+        /*O menu vai para a parte superior a direita, 2% é os 2% do limite da margem*/
+        position: absolute;
+        right: 2%;
+        top: 18%;
+    }
 }

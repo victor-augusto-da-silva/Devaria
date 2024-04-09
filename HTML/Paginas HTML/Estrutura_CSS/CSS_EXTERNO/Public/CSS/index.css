@@ -1,9 +1,38 @@
+
+ main{
+    text-align: center;
+ }
  
-#home{
-    color: green;
-}
  
  
 .cover-container figure img{
     width: 100%;
 }
+
+main h3.title{
+    font-size: 1.2em;
+}
+
+main section abbr{
+    color:#25cbd3;
+    text-decoration: underline;
+}
+
+
+
+ 
+ /*Para deskptop*/
+@media screen and (min-width: 992px) {
+    /* Definições de estilo para dispositivos maiores, como desktops */
+
+    /* , para diversos seletores*/
+    .cover-container,.section-video {
+        width: 40%;
+        display: inline-block;
+    }
+    main{
+
+    }
+     
+}
+ 

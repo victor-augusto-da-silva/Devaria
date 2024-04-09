@@ -7,10 +7,10 @@
         <meta name="author" content="Victor Silva"> <!--Autor da Pagina-->
         <meta http-equiv="refresh" content="50">  <!--Informa o tempo de refresh da pagina em segundos-->
         <link rel="stylesheet" href="../Public/CSS/header.css">
-        <link rel="stylesheet" href="../Public/CSS/index.css">
         <link rel="stylesheet" href="../Public/CSS/footer.css">
         <link rel="stylesheet" href="../Public/CSS/devaria.css">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="../Public/CSS/index.css">
         
         <title> Hello World </title> <!-- titulo da pagina-->
     </head>
@@ -29,29 +29,40 @@
                     
                     <li> <a href="professores.html">Professores  </a></li>
                     <li> <a href="FaleConosco.html"> Fale Conosco </a> </li>       
-                    <li>   <a href="../Model/devstar.html"> Dev Star </a></li>
+                    <li>  <a href="../Model/devstar.html"> Dev Star </a></li>
                 </ul>
             </nav>
         </header>
         <main> <!--Conteudo principal-->
             <h1 class="title"> Minha Pagina web</h1> <!-- titulo no corpo da pagina-->
+
             <section class="cover-container"> <!-- marcação de seção-->
                 <figure> <!--Identifica no html que o trecho é uma imagem-->
-              
-                    <img src="../Public/Img/devaria_home.png"    alt="Imagem Devaria"/> <!--Marcação de texto alternativo da img-->
-                <figcaption> Foto de capa devaria </figcaption> <!--Legenda da imagem-->    
+                    <img src="../Public/Img/devaria_home.png" alt="Imagem Devaria"/> <!--Marcação de texto alternativo da img-->
+                    <figcaption> Foto de capa devaria </figcaption> <!--Legenda da imagem-->   
                 </figure>
             </section>
-            <section>
+
+
+      
+            <section class="section-video">
                 <div>
                       <!--Iframe do youtube--> <iframe width="560" height="315" src="https://www.youtube.com/embed/LYq8fT_LO7Y?si=m3fL0ZJsnHPi8BRU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
                 </div>
+            </section>
+            <section>
+                <h3 class="title"> Para os <abbr title="Developers"> Devs </abbr> <!--Abreviação-->
+                sabem a devaria usa <abbr title="Microsoft"> MS Azure </abbr>
+                </h3>
+                <blockquote class="text-justify" cite="www.devaria.com.br/teste">
+                    Bloco de citação para não ser como plagio
+                </blockquote>
             </section>
         </main>
         <footer>
             <section>
                 <span> contato@devaria.com.br </span> </br>
-                <span> conheça nosso canal no youtube </span> </br>
+                <span> conheça nosso canal no youtube </span>  
             </section>
         </footer>
 

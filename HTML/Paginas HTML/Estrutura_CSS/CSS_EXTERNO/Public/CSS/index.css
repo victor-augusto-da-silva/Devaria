@@ -1,17 +1,10 @@
-
- main{
-    text-align: center;
- }
  
  
  
 .cover-container figure img{
     width: 100%;
 }
-
-main h3.title{
-    font-size: 1.2em;
-}
+ 
 
 main section abbr{
     color:#25cbd3;
@@ -30,9 +23,12 @@ main section abbr{
         width: 40%;
         display: inline-block;
     }
-    main{
-
+    main .section-azure blockquote{
+            text-align: center;
+            padding: 0 20px;
+            margin: auto;
     }
+
      
 }
  

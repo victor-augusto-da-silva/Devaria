@@ -9,7 +9,8 @@
     <link rel="stylesheet" href="../Public/CSS/header.css">
     <link rel="stylesheet" href="../Public/CSS/footer.css">
     <link rel="stylesheet" href="../Public/CSS/devaria.css">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../Public/CSS/faleconosco.css">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
    
     <title>FaleConosco</title>
 </head>
@@ -35,32 +36,33 @@
  
 
     <main>
-        <h1> Fale com a Devaria atraveé dessa pagina </h1>
-        <h2>Para mandar mensagem para a devaria clique em enviar</h2>  
+        <h1 class="title text-center"> Fale com a Devaria atraveé dessa pagina </h1>
+        <h2 class="sub-title text-center">Para mandar mensagem para a devaria clique em enviar</h2>  
         <section> 
-            <form action="index.html"> <!--Marcação de formulario, action para onde vai o formulario-->
-                 <p>
+            <form action="index.html" class="contact-form"> <!--Marcação de formulario, action para onde vai o formulario-->
+                 
+                <div>
                     <label> Nome: </label> <input type="text" name="Nome" required>
-                 </p>
-                 <p>
+                </div>
+                 <div>
                     <label> E-mail: </label> <input type="email" name="Email" required>
-                 </p>
-                 <p>
+                 </div>
+                 <div>
                     <label> Comentário: </label> <textarea name="Comentario" rows="4" cols="50" maxlength="55"> </textarea>
                      <!--Text area é para grandes textos, como comentario
                     rows = No maximo em até 4 linhas
                     cols = largura do comentario
                     maxlength = quantidade maxima de caracteres
                     -->
-                 </p>
-                 <p>
+                </div>
+                 <div>
                     <label> Sexo: </label> <input type="radio" name="sexo"/> <label>Feminino</label>
                       <input type="radio" name="sexo"/> <label>Masculino</label>
                     <!--O nome dos radio buttons tem que ser igual para que o tipo funcione,
                     Ele marca 1 e desmarca todos
                     -->
-                </p>
-                <p>
+                </div>
+                <div>
                     <label>Onde nos conheceu?</label>
                     <select name="Conheceu">
                         <option selected> Youtube </option> <!--O selected é a opção que ja vem marcada-->
@@ -68,17 +70,17 @@
                         <option> Amigos </option>
                         <option> Outros</option>
                     </select>
-                </p>
-                <p>
+                </div>
+                <div>
                     <input type="checkbox" name="novidades" value="aceite"> 
                     <label> Aceito receber e-mails de novidade </label>
                     <!--Diferente do tipe radio o checkbox aceita varias marcações-->
-                </p>
-                <p>
+                </div>
+                <div>
                     <input type="submit" name="enviar" value="enviar"> 
                     <input type="reset" name="limpar" value="limpar">
                     <!--O campo value é o nome que vai ser exibido no botão-->
-                </p>
+                </div>
             </form>
         </section>  
     </main>

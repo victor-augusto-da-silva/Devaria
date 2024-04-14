@@ -1,6 +1,6 @@
- 
- 
- 
+
+
+
 .cover-container figure img{
     width: 100%;
 }
@@ -12,7 +12,12 @@ main section abbr{
 }
 
 
-
+main section div .video{
+    width: 65%;
+    height: 50%;
+    margin: 0;
+    padding: 20px;
+}
  
  /*Para deskptop*/
 @media screen and (min-width: 992px) {
@@ -22,13 +27,15 @@ main section abbr{
     .cover-container,.section-video {
         width: 40%;
         display: inline-block;
+        height: 315px;
     }
-    main .section-azure blockquote{
+    main .section-azure blockquote
+    {
             text-align: center;
             padding: 0 20px;
             margin: auto;
     }
-
+ 
      
 }
  

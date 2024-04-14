@@ -36,10 +36,10 @@
  
 
     <main>
-        <h1 class="title text-center"> Fale com a Devaria atraveé dessa pagina </h1>
+        <h1 class="title text-center"> Fale com a Devaria através dessa pagina </h1>
         <h2 class="sub-title text-center">Para mandar mensagem para a devaria clique em enviar</h2>  
         <section> 
-            <form action="index.html" class="contact-form"> <!--Marcação de formulario, action para onde vai o formulario-->
+            <form action="index.html" class="contact-form margin-horizontal-20px"> <!--Marcação de formulario, action para onde vai o formulario-->
                  
                 <div>
                     <label> Nome: </label> <input type="text" name="Nome" required>
@@ -48,7 +48,7 @@
                     <label> E-mail: </label> <input type="email" name="Email" required>
                  </div>
                  <div>
-                    <label> Comentário: </label> <textarea name="Comentario" rows="4" cols="50" maxlength="55"> </textarea>
+                    <label> Comentário: </label> <textarea name="Comentario" rows="4" cols="49" maxlength="40"> </textarea>
                      <!--Text area é para grandes textos, como comentario
                     rows = No maximo em até 4 linhas
                     cols = largura do comentario
@@ -56,8 +56,8 @@
                     -->
                 </div>
                  <div>
-                    <label> Sexo: </label> <input type="radio" name="sexo"/> <label>Feminino</label>
-                      <input type="radio" name="sexo"/> <label>Masculino</label>
+                    <label> Sexo: </label> <input type="radio" name="sexo"/> <span>Feminino</span>
+                      <input type="radio" name="sexo"/> <span>Masculino</span>
                     <!--O nome dos radio buttons tem que ser igual para que o tipo funcione,
                     Ele marca 1 e desmarca todos
                     -->

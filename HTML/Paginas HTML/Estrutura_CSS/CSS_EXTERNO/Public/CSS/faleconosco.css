@@ -1,9 +1,5 @@
 /*CSS da pagina fale conosco*/
-main {
-
-    width: 90%;
-}
-
+ 
 
 
 .sub-title{
@@ -19,7 +15,32 @@ main .contact-form > div label{
     margin-bottom: 10px;
 }
 
-main .contact-form input {
+main .contact-form input,
+main .contact-form select,
+main .contact-form  textarea
+{
     width: 90%;
     padding: 5px 15px;
+    outline-color: #5e49ff;
+}
+
+main .contact-form select{
+    width: 100%;
+}
+
+main .contact-form textarea {
+    /*quando o campo é flexivel*/
+    resize: none;
+    padding-top: 10px;
+}
+
+/*Definindo o CSS pra propriedade type do tipo radio*/
+main .contact-form > div input[type="radio"], 
+main.contact-form > input[type="checkbox"] {
+width: 25px;
+}
+
+/*A quarta div dentro de contact form*/
+main .contact-form > div:nth-child(4) span{
+    color: #5e49ff;;
 }

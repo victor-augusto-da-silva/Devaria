@@ -6,7 +6,7 @@
 if verificação de condição
 switch verificador de caso
 */
-const { read } = require('fs');
+ 
 
  
 

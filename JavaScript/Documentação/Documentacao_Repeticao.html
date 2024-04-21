@@ -1,0 +1,39 @@
+<!--
+FOR  
+-->
+
+for (let pneusTrocados - 0; pneusTrocados < 4 ; pneusTrocados ++){
+
+}
+
+<!--
+    While
+-->
+let temCarroNaFila = True;
+while(temCarroNaFila) {
+    lavarCarro();
+    temCarroNaFila = verificarTemCarroNaFila();
+}
+
+<!--
+    Do While
+-->
+
+let atividadesPendentes;
+do {
+    atividadesPendentes = 
+    consultarAgendaDeHoje();
+    informarAtividades(atividadesPendentes);
+    await umaHora(); <!--Executa novamente apos uma hora-->
+}
+while (atividadesPendentes.lenght >0);
+
+<!--
+    For Of
+    para cada novoaluno armazena na variavel aluno
+-->
+const novosAlunos = ["João","Felipe","Alfredo"];
+for (const aluno of novosAlunos) 
+{
+    darBoasVindas (aluno);
+}

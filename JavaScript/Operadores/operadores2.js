@@ -28,3 +28,6 @@ const validar = (valida) =>{
  
 console.log(validar(teste));
 console.log(validar(teste));
+
+
+

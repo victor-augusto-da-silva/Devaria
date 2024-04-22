@@ -1,0 +1,18 @@
+<!--
+    Arrays
+-->
+
+.filter() <!-- retorna uma lista menor -->
+
+.map() <!-- faz uma transformação no tipo  -->
+
+.find() <!-- faz uma busca no primeiro que atende os requisitos -->
+
+.sort() <!-- faz uma ordenação-->
+
+.push() <!-- adiciona mais um intem no final do array-->
+
+Função anonima é igual arow function
+
+
+const qdNotaAcima80 = notas.filter( n => n > 80).lenght;

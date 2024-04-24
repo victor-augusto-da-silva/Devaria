@@ -2,3 +2,7 @@
 Banco_Dados/Der/Der_Devaria.Drawio
 Banco_Dados/Der/Der_Devaria.Drawio
 *.Drawio
+
+node_modules/
+
+package-lock.json

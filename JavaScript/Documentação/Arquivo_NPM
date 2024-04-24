@@ -1,0 +1,10 @@
+O comando npm init 
+inicia para configurar a aplicação um package.json para gestão e dependencia npm
+
+
+O comando npm init -yes coloca as configurações default
+
+Npm é uma biblioteca do node onde você consegue acessar e baixar bibliotecas de outros programadores
+
+
+ npm i (Install) moment (nome da biblioteca)

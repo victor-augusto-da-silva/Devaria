@@ -8,3 +8,7 @@ Com o next NÃO
 
 
 Para paginas de login...etc.
+
+
+
+arquivos .envy são arquivos onde armazenamos as variaveis e preparamos/separamos os ambientes, de homologação, dev,produção...etc
